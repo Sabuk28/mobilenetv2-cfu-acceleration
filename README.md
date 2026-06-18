@@ -20,17 +20,21 @@ Dự án này thực hiện phương pháp **Đồng thiết kế Phần cứng 
 
 **Bước 1:** Cài đặt các công cụ hệ thống cơ bản
 Trước khi tải mã nguồn, hệ thống cần được cài đặt các công cụ biên dịch và quản lý phiên bản cơ bản. Nhóm sử dụng Terminal của Ubuntu để thực thi:
+
 <img width="451" height="128" alt="image" src="https://github.com/user-attachments/assets/559aa63a-f84c-44d5-be66-e5b6b645d793" />
 
 **Bước 2: **Tải mã nguồn CFU-Playground từ GitHub
 Mã nguồn toàn bộ dự án được cung cấp dưới dạng mã nguồn mở bởi Google. Nhóm tiến hành nhân bản (clone) kho lưu trữ từ GitHub về máy tính cục bộ:
+
 <img width="559" height="120" alt="image" src="https://github.com/user-attachments/assets/e401ebad-15fb-4553-b0a0-567233748284" />
 
 **Bước 3: **Thiết lập môi trường và Toolchain tự động
 Dự án CFU-Playground đòi hỏi rất nhiều công cụ phức tạp (Trình biên dịch chéo RISC-V GCC, máy ảo Renode, phần mềm tổng hợp Verilator, và Yosys). Thay vì cài đặt thủ công, nhóm chạy kịch bản tự động do Google cung cấp:
+
 <img width="248" height="105" alt="image" src="https://github.com/user-attachments/assets/f1927d00-defd-4829-a95f-6c8d5df2cb3a" />
 
 	Giải thích: Lệnh này sẽ tự động tải các toolchain cần thiết và tạo ra một môi trường biệt lập tên là cfu-common thông qua hệ thống quản lý gói Conda. Điều này đảm bảo các phiên bản thư viện phần cứng không bị xung đột với hệ thống máy tính của nhóm.
+	
   <img width="624" height="275" alt="image" src="https://github.com/user-attachments/assets/bff6e10b-a8cd-4100-8500-8631354097ab" />
 
 **2. Chuẩn bị trước khi Mô phỏng (Pre-Simulation Configuration)**
