@@ -33,7 +33,7 @@ Dự án CFU-Playground đòi hỏi rất nhiều công cụ phức tạp (Trìn
 
 <img width="248" height="105" alt="image" src="https://github.com/user-attachments/assets/f1927d00-defd-4829-a95f-6c8d5df2cb3a" />
 
-	Giải thích: Lệnh này sẽ tự động tải các toolchain cần thiết và tạo ra một môi trường biệt lập tên là cfu-common thông qua hệ thống quản lý gói Conda. Điều này đảm bảo các phiên bản thư viện phần cứng không bị xung đột với hệ thống máy tính của nhóm.
+	**Giải thích: Lệnh này sẽ tự động tải các toolchain cần thiết và tạo ra một môi trường biệt lập tên là cfu-common thông qua hệ thống quản lý gói Conda. Điều này đảm bảo các phiên bản thư viện phần cứng không bị xung đột với hệ thống máy tính của nhóm.**
 	
   <img width="624" height="275" alt="image" src="https://github.com/user-attachments/assets/bff6e10b-a8cd-4100-8500-8631354097ab" />
 
