@@ -1,4 +1,4 @@
-<img width="624" height="275" alt="image" src="https://github.com/user-attachments/assets/29abbc37-2ae0-4b6a-b044-e0e4f674ea64" /># 🚀 Dự án Tăng tốc Mô hình MobileNetV2 trên FPGA (CFU-Playground)
+# 🚀 Dự án Tăng tốc Mô hình MobileNetV2 trên FPGA (CFU-Playground)
 
 Dự án này thực hiện phương pháp **Đồng thiết kế Phần cứng - Phần mềm (Hardware-Software Co-design)** để tối ưu hóa tốc độ suy luận của mạng Neural MobileNetV2 (int8).
 
